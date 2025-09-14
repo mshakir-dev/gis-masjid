@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gis-masjid/static/css/main.83b3ae57.css",
+    "main.js": "/gis-masjid/static/js/main.5b985c4c.js",
+    "index.html": "/gis-masjid/index.html",
+    "main.83b3ae57.css.map": "/gis-masjid/static/css/main.83b3ae57.css.map",
+    "main.5b985c4c.js.map": "/gis-masjid/static/js/main.5b985c4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83b3ae57.css",
+    "static/js/main.5b985c4c.js"
+  ]
+}
