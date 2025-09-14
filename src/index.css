@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-brown: #894329;
+  --secondary-green: #12727D;
+  --secondary-golden: #FCB886;
+}
+
 a {
   text-decoration: none;
 }
