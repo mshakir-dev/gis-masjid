@@ -1,0 +1,26 @@
+.footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 4px solid #4caf50;
+  font-family: sans-serif;
+}
+
+.main-text {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+.secondary-text {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin: 0.3rem 0;
+}
+
+.quran-reference {
+  color: var(--color-orange);
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+  font-weight: bold;
+}

@@ -1,0 +1,219 @@
+.header-navbar {
+  background: var(--background-green);
+  color: var(--background-golden);
+  height: 80px;
+  border-bottom: 4px solid var(--background-golden);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+
+.header-navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-navbar .navbar-logo-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-navbar .logo-icon {
+  font-size: 36px;
+  color: var(--background-golden);
+}
+
+.header-navbar .title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--background-golden);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 2px;
+}
+
+.header-navbar .subtitle {
+  font-size: 12px;
+  color: rgb(221, 221, 221, 0.7);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: var(--background-white);
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  color: var(--background-golden);
+  transform: translateY(-2px);
+}
+
+.navbar-menu a.active,
+.navbar-menu-sidebar ul a.active {
+  color: var(--background-golden);
+  font-weight: bold;
+}
+
+.menu-link-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+  font-size: 14px;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.menu-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.donate-btn {
+  background-color: var(--background-black);
+  padding: 0.5rem 0.75rem;
+  color: var(--color-white);
+  border-radius: 0.25rem;
+  text-align: center;
+  border: 1px solid var(--background-golden);
+}
+
+.donate-btn.active {
+  color: var(--background-white);
+  border: 1px solid rgb(221, 221, 221, 0.9);
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--background-golden);
+}
+
+.navbar-menu-sidebar {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 400px;
+  height: 100%;
+  background-color: var(--background-green);
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+  color: var(--background-white);
+  z-index: 999;
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.navbar-menu-sidebar.open {
+  right: 0;
+}
+
+.sidebar-close-icon {
+  align-self: flex-end;
+  font-size: 1.8rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  padding: 4px;
+  color: var(--background-golden);
+  transition: color 0.2s;
+}
+
+.sidebar-close-icon:hover {
+  color: var(--background-white);
+}
+
+.navbar-menu-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.navbar-menu-sidebar ul a {
+  text-decoration: none;
+  color: var(--background-white);
+  font-size: 16px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  transition: color 0.3s ease;
+  border-bottom: 1px dotted rgb(221, 221, 221, 0.5);
+}
+
+.navbar-menu-sidebar ul a:hover {
+  color: var(--background-golden);
+}
+
+.navbar-menu-sidebar ul .menu-link-icon {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.navbar-menu-sidebar-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: auto;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.navbar-menu-sidebar-bottom .contact-info p {
+  font-size: 0.95rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-menu-sidebar-bottom a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-menu-sidebar-bottom a:hover {
+  color: var(--background-golden);
+}
+
+.navbar-menu-sidebar-bottom .donate-btn.active {
+  color: var(--background-golden);
+  border: 1px solid var(--background-white);
+}
+
+
+@media (max-width: 968px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+}
