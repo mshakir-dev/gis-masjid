@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gis-masjid/static/css/main.83b3ae57.css",
-    "main.js": "/gis-masjid/static/js/main.5b985c4c.js",
+    "main.css": "/gis-masjid/static/css/main.9beb6ffe.css",
+    "main.js": "/gis-masjid/static/js/main.f28ee1d3.js",
     "index.html": "/gis-masjid/index.html",
-    "main.83b3ae57.css.map": "/gis-masjid/static/css/main.83b3ae57.css.map",
-    "main.5b985c4c.js.map": "/gis-masjid/static/js/main.5b985c4c.js.map"
+    "main.9beb6ffe.css.map": "/gis-masjid/static/css/main.9beb6ffe.css.map",
+    "main.f28ee1d3.js.map": "/gis-masjid/static/js/main.f28ee1d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.83b3ae57.css",
-    "static/js/main.5b985c4c.js"
+    "static/css/main.9beb6ffe.css",
+    "static/js/main.f28ee1d3.js"
   ]
 }
