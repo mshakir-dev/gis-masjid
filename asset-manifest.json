@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/gis-masjid/static/css/main.9beb6ffe.css",
-    "main.js": "/gis-masjid/static/js/main.f28ee1d3.js",
+    "main.css": "/gis-masjid/static/css/main.5b5b7424.css",
+    "main.js": "/gis-masjid/static/js/main.513ec22b.js",
+    "static/media/News.jpg": "/gis-masjid/static/media/News.c44ea2ff7e7599d9b62d.jpg",
     "index.html": "/gis-masjid/index.html",
-    "main.9beb6ffe.css.map": "/gis-masjid/static/css/main.9beb6ffe.css.map",
-    "main.f28ee1d3.js.map": "/gis-masjid/static/js/main.f28ee1d3.js.map"
+    "main.5b5b7424.css.map": "/gis-masjid/static/css/main.5b5b7424.css.map",
+    "main.513ec22b.js.map": "/gis-masjid/static/js/main.513ec22b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9beb6ffe.css",
-    "static/js/main.f28ee1d3.js"
+    "static/css/main.5b5b7424.css",
+    "static/js/main.513ec22b.js"
   ]
 }
