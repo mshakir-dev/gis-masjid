@@ -1,15 +1,15 @@
 .footer {
-  background-color: #1a1a1a;
-  color: #ffffff;
+  background-color: var(--background-black);
+  color: var(--background-white);
   padding: 1.5rem;
   text-align: center;
-  border-top: 4px solid #4caf50;
+  border-top: 4px solid var(--background-golden);
   font-family: sans-serif;
 }
 
 .main-text {
   font-size: 1rem;
-  margin: 0.3rem 0;
+  margin: 0.3rem 0 0.5rem 0;
 }
 
 .secondary-text {
@@ -19,7 +19,7 @@
 }
 
 .quran-reference {
-  color: var(--color-orange);
+  color: var(--background-golden);
   font-size: 0.9rem;
   margin: 0.2rem 0;
   font-weight: bold;
